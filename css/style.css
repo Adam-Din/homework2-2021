@@ -29,12 +29,12 @@ img {
 
 div {
     padding: 25px;
-    height: 150px;
+    min-height: 150px;
 }
 
 #red {
     background: #FF0000;
-    text-align: right
+    text-align: right;
 }
 
 #blue {
@@ -49,7 +49,7 @@ div {
 }
 
 #yellow > h2 {
-    text-shadow: 4px 4px 2px #c7e2c7
+    text-shadow: 4px 4px 2px #c7e2c7;
 }
 
 #green {
@@ -59,6 +59,7 @@ div {
 
 footer > p {
     text-align: center;
-    padding-bottom: 10px;
     padding-right: 10px;
+    padding-bottom: 10px;
+    padding-top: 0px;
 }
